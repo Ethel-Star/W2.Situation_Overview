@@ -47,7 +47,6 @@ class DatabaseConnector:
             return None
 
     def close_connection(self):
-     
         if self.connection is not None:
             try:
                 self.connection.close()
